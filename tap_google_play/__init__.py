@@ -7,6 +7,7 @@ from singer.catalog import Catalog, CatalogEntry
 from singer.schema import Schema
 from google_play_scraper import app
 import requests
+import ast
 
 
 REQUIRED_CONFIG_KEYS = ['api_host', 'country_code', 'categories_to_scrape', 'collections_to_scrape']
@@ -78,8 +79,9 @@ def app_list(config):
     collection_l = ['topselling_free','topselling_paid','topgrossing','movers_shakers','topselling_free_games','topselling_paid_games','topselling_grossing_games','topselling_new_free','topselling_new_paid','topselling_new_free_games','topselling_new_paid_games']
     n_category = int(config['categories_to_scrape'])
     n_collection = int(config['collections_to_scrape'])
+    countries = ast.literal_eval(config['country_code'])
     full_app_list = []
-    for country_code in config['country_code']:
+    for country_code in countries:
         for category in category_l[:n_category]:
             for collection in collection_l[:n_collection]:
                 for app_list in scroll(config['api_host'], collection, category, country_code):
