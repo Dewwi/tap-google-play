@@ -1,0 +1,151 @@
+{
+    "properties": {
+      "title": {
+        "type": ["null", "string"]
+      },
+      "description": {
+        "type": ["null", "string"]
+      },
+      "descriptionHTML": {
+        "type": ["null", "string"]
+      },
+      "summary": {
+        "type": ["null", "string"]
+      },
+      "summaryHTML": {
+        "type": ["null", "string"]
+      },
+      "installs": {
+        "type": ["null", "string"]
+      },
+      "minInstalls": {
+        "type": ["null", "number"]
+      },
+      "score": {
+        "type": ["null", "number"]
+      },
+      "ratings": {
+        "type": ["null", "number"]
+      },
+      "reviews": {
+        "type": ["null", "number"]
+      },
+      "histogram": {
+        "type": ["null", "string"]
+      },
+      "price": {
+        "type": ["null", "number"]
+      },
+      "free": {
+        "type": ["null", "boolean"]
+      },
+      "currency": {
+        "type": ["null", "string"]
+      },
+      "sale": {
+        "type": ["null", "boolean"]
+      },
+      "saleTime": {
+        "type": ["null", "number"]
+      },
+      "originalPrice": {
+        "type": ["null", "number"]
+      },
+      "saleText": {
+        "type": ["null", "string"]
+      },
+      "offersIAP": {
+        "type": ["null", "boolean"]
+      },
+      "inAppProductPrice": {
+        "type": ["null", "string"]
+      },
+      "size": {
+        "type": ["null", "string"]
+      },
+      "androidVersion": {
+        "type": ["null", "string"]
+      },
+      "androidVersionText": {
+        "type": ["null", "string"]
+      },
+      "developer": {
+        "type": ["null", "string"]
+      },
+      "developerId": {
+        "type": ["null", "string"]
+      },
+      "developerEmail": {
+        "type": ["null", "string"]
+      },
+      "developerWebsite": {
+        "type": ["null", "string"]
+      },
+      "developerAddress": {
+        "type": ["null", "string"]
+      },
+      "privacyPolicy": {
+        "type": ["null", "string"]
+      },
+      "developerInternalID": {
+        "type": ["null", "string"]
+      },
+      "genre": {
+        "type": ["null", "string"]
+      },
+      "genreId": {
+        "type": ["null", "string"]
+      },
+      "icon": {
+        "type": ["null", "string"]
+      },
+      "headerImage": {
+        "type": ["null", "string"]
+      },
+      "screenshots": {
+        "type": ["null", "string"]
+      },
+      "video": {
+        "type": ["null", "string"]
+      },
+      "videoImage": {
+        "type": ["null", "string"]
+      },
+      "contentRating": {
+        "type": ["null", "string"]
+      },
+      "contentRatingDescription": {
+        "type": ["null", "string"]
+      },
+      "adSupported": {
+        "type": ["null", "boolean"]
+      },
+      "containsAds": {
+        "type": ["null", "boolean"]
+      },
+      "released": {
+        "type": ["null", "string"]
+      },
+      "updated": {
+        "type": ["null", "number"]
+      },
+      "version": {
+        "type": ["null", "string"]
+      },
+      "recentChanges": {
+        "type": ["null", "string"]
+      },
+      "recentChangesHTML": {
+        "type": ["null", "string"]
+      },
+      "comments": {
+        "type": ["null", "string"]
+      },
+      "appId": {
+        "type": ["null", "string"]
+      },
+      "url": {
+        "type": ["null", "string"]
+      }
+    }
+}
