@@ -104,7 +104,6 @@ def sync(config, state, catalog):
     )
 
     # TODO: delete and replace this inline function with your own data retrieval process:
-    print(config)
     app_ids = app_list(config)
 
     for row in tap_data(app_ids):
